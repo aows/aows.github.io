@@ -2,3 +2,4 @@ name: adrian otero vila
 markdown: redcarpet
 pygments: true
 timezone: EST
+permalink: /:year/:month/:title.html
