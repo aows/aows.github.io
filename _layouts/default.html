@@ -8,32 +8,26 @@
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
-
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
-        <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-
     </head>
     <body>
+        <div id="header">
+          <h1>{{ site.name }}</h1>
 
+          <ul class="info">
+            <li><a href="mailto:adrian@otero.ws"><img src="/img/email.png" /> adrian@otero.ws</a></li>
+            <li><a href="http://twitter.com/aows/"><img src="/img/twitter.png" /> @aows</a></li>
+            <li><a href="http://instagram.com/aows/"><img src="/img/instagram.png" /> @aows</a></li>
+            <li><a href="http://github.com/aows/"><img src="/img/github.png" /> github.com/aows</a></li>
+          </ul>
+        </div>
         <div class="container">
           <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            </div>
 
                 {{ content }}
 
-            <div class="footer">
-              <div class="contact">
-                <p>
-                  <a href="http://twitter.com/aows/">twitter.com/aows</a><br />
-                  <a href="http://instagram.com/aows/">instagram.com/aows</a><br />
-                  <a href="http://github.com/aows/">github.com/aows</a><br />
-                </p>
-              </div>
-            </div>
           </div>
         </div> <!-- /container -->
 

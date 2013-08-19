@@ -4,24 +4,22 @@ title: adrian.otero.vila
 ---
 
 <div id="home">
-  
-  <iframe src="http://snapwidget.com/in/?u=YW93c3xpbnwxMDB8NXwxfHx5ZXN8MTB8bm9uZXxvblN0YXJ0" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:600px; height: 120px" ></iframe>
 
-  <a class="twitter-timeline" href="https://twitter.com/aows" lang="EN" data-tweet-limit="50" data-widget-id="369529457029033984">Tweets by @aows</a>
+  <div id="posts_area">
+    <h1>tech & programming</h1>
+    <ul class="posts">
+      {% for post in site.categories.tech %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
 
-  <!--
-  <h1>tech & programming</h1>
-  <ul class="posts">
-    {% for post in site.categories.tech %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+    <h1>cool & personal</h1>
+    <ul class="posts">
+      {% for post in site.categories.aows %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
 
-  <h1>cool & personal</h1>
-  <ul class="posts">
-    {% for post in site.categories.aows %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
--->
+  <iframe src="http://snapwidget.com/in/?u=YW93c3xpbnwxMDB8NXwxfHx5ZXN8MTB8bm9uZXxvblN0YXJ0" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:50%; height: 120px" ></iframe>
 </div>
