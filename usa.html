@@ -23,6 +23,11 @@ title: in usa is like this! // adrian.otero.vila
 
     {{ post.content }}
 
-    <footer class="meta text-muted">{{ post.date | date_to_string }}</footer>
+    <footer class="meta text-muted">
+      <ul class="list-inline">
+        <li>{{ post.date | date_to_string }}</li>
+        <li><a href="{{post.url}}#disqus_thread">Comments</a></li>
+      </ul>
+    </footer>
   </article>
 {% endfor %}
