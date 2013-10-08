@@ -4,32 +4,67 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
 
         <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+        <!-- <link rel="stylesheet" href="/css/syntax.css"> -->
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
+        <!-- fonts -->
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Cabin:normal,400,400italic,500,500italic,600,600italic,700,700italic|Playfair+Display:normalitalic"/>
+
+        <!-- icons -->
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
     </head>
     <body>
-        <div id="header">
-          <h1>{{ site.name }}</h1>
 
-          <ul class="info">
-            <li><a href="mailto:adrian@otero.ws"><img src="/img/email.png" /> adrian@otero.ws</a></li>
-            <li><a href="http://twitter.com/aows/"><img src="/img/twitter.png" /> @aows</a></li>
-            <li><a href="http://instagram.com/aows/"><img src="/img/instagram.png" /> @aows</a></li>
-            <li><a href="http://github.com/aows/"><img src="/img/github.png" /> github.com/aows</a></li>
-          </ul>
-        </div>
-        <div class="container">
-          <div class="site">
+      <!-- Begin page content -->
+      <div class="container">
 
-                {{ content }}
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
 
-          </div>
-        </div> <!-- /container -->
+            <div class="aows-header">
+                <h1>AO<span class="ws">WS</span></h1>
+            </div>
+
+            <ul class="nav nav-justified page-header">
+              <li {% if page.url == '/about.html' %} class="active" {% endif %}><a href="/about.html">what this is about</a></li>
+              <li {% if page.url == '/index.html' %} class="active" {% endif %}><a href="index.html">journal</a></li>
+              <li {% if page.url == '/usa.html' %} class="active" {% endif %}><a href="usa.html">in usa is like this!</a></li>
+              <li {% if page.url == '/photos.html' %} class="active" {% endif %}><a href="photos.html">photos</a></li>
+            </ul>
+
+            {{ content }}
+
+            <div id="footer" class="text-muted">
+              <p>
+                <a href="http://twitter.com/aows" class="icon-twitter-sign icon-2x"></a>
+                <a href="http://instagram.com/aows" class="icon-instagram icon-2x"></a>
+                <a href="http://github.com/aows" class="icon-github-sign icon-2x"></a>
+                <a href="http://facebook.com/aovila" class="icon-facebook-sign icon-2x"></a>
+                <a href="http://gplus.to/aovila" class="icon-google-plus-sign icon-2x"></a>
+                <a href="http://www.linkedin.com/in/adrianotero" class="icon-linkedin-sign icon-2x"></a>
+              </p>
+              <p>made with love by <strong>adrian.otero.vila</strong> using <a href="//jekyllrb.com">jekyll</a>, <a href="//pages.github.com">github pages</a>, <a href="//getbootstrap.com">bootstrap</a>, <a href="//fortawesome.github.io/Font-Awesome/">font awesome</a> and <a href="//ashleydw.github.io/lightbox/">bootstrap lightbox</a></p>
+            </div>
+          </div><!-- col-md-10 -->
+        </div><!-- row -->
+
+      </div><!-- container -->
+        
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="//code.jquery.com/jquery.js"></script>
+      <!-- lightbox -->
+      <script src="/js/ekko-lightbox.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 
     </body>
 </html>
