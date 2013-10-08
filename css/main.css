@@ -123,3 +123,12 @@ article footer {
 [class*=" icon-"]:focus {
   text-decoration: none;
 }
+
+div.row > div > div.row {
+  margin-bottom: 15px;
+}
+.instagram {
+  font-size: 30px; 
+  text-align: center; 
+  margin: 30px 0;
+}
