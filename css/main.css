@@ -71,13 +71,14 @@ article footer {
   text-align: center;
   font-size: 14px;
 }
+figure.post-image {
+  width: 120%;
+  margin-left: -10%;
+  text-align: center;
+}
 .post {
   width: 70%;
   margin: 0 auto;
-}
-.post-image {
-  text-align: center;
-  margin-left: -50px;
 }
 .post h2 {
   text-align: center;
@@ -131,4 +132,8 @@ div.row > div > div.row {
   font-size: 30px; 
   text-align: center; 
   margin: 30px 0;
+}
+
+.photos img {
+  box-shadow: 3px 3px 10px #888888;
 }

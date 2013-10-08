@@ -1,0 +1,14 @@
+<figure class="post-image row">
+	<div class="col-md-6">
+		<a data-toggle="lightbox" href="{{include.image1}}.jpg">
+	  		<img src="{{include.image1}}_mini.jpg" class="img-responsive" />
+		</a>
+		{% if include.caption1 %}<small>{{include.caption1}}</small>{% endif %}
+	</div>
+	<div class="col-md-6">
+		<a data-toggle="lightbox" href="{{include.image2}}.jpg">
+	  		<img src="{{include.image2}}_mini.jpg" class="img-responsive" />
+		</a>
+		{% if include.caption2 %}<small>{{include.caption2}}</small>{% endif %}
+	</div>
+</figure>

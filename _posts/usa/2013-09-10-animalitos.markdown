@@ -4,6 +4,7 @@ title:  "Animalitos..."
 date:   2013-09-10 16:01:48
 categories: usa
 image: img/usa/deer
+caption: ciervos en Rawlins, WY
 ---
 
 Al menos en mi tierra, no se suelen ver muchos animales salvajes. Te puedes hartar a ver vacas, gallinas y cerdos, pero muy pocas veces tienes la ocasión de ver ciervos. Aquí es completamente normal, y los he visto en Indiana, en California, y por última vez aquí, en Rawlins, Wyoming.

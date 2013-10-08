@@ -6,11 +6,7 @@ title: journal // adrian.otero.vila
 {% for post in site.categories.journal %}
   <article class="post">
     {% if post.image %}
-      <div class="post-image">
-        <a data-toggle="lightbox" href="{{post.image}}.jpg">
-          <img src="{{post.image}}_mini.jpg" />
-        </a>
-      </div>
+      {% include single_image.html image=post.image caption=post.caption %}
     {% endif %}
 
     <header>
