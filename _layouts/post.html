@@ -4,11 +4,7 @@ layout: default
 
 <article class="post">
 {% if page.image %}
-  <div class="post-image">
-    <a data-toggle="lightbox" href="/{{page.image}}.jpg">
-      <img src="/{{page.image}}_mini.jpg" />
-    </a>
-  </div>
+  {% include single_image.html image=page.image caption=page.caption %}
 {% endif %}
 
 <header>
@@ -19,7 +15,7 @@ layout: default
   {% endif %}
 </header>      
 
-{{ content }}
+{{ page.content }}
 
 <footer class="meta text-muted">
   <ul class="list-inline">
