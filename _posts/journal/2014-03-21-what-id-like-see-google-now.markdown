@@ -9,6 +9,7 @@ image: img/journal/google_now
 Little by little, Google Now came from being a cool app to be the most important app to me. I use it every day, and now and then it still surprises me with things I was not expecting but make a lot of sense. Still, there is a lot of work to do here and a lot of room to improve it. These are some of my suggestions.
 
 
+
 ### Improve (a lot) "time to work" and "time to home"
 
 Google Now should allow you to customize your commute route. For instance, I walk to a bus stop, I take a bus there, get off and then walk again for 15 minutes to the office. Google suggests me to take another bus, but I don't want to because it's not convenient. I just can't change that, and all the estimated times are wrong and useless.

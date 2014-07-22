@@ -3,4 +3,4 @@ markdown: redcarpet
 pygments: true
 timezone: PDT
 permalink: /:year/:month/:title.html
-excerpt_separator: "\n\n"
+excerpt_separator: "\n\n\n"
