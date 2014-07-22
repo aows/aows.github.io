@@ -1,6 +1,6 @@
 name: adrian.otero.vila
 markdown: redcarpet
-pygments: true
+highlighter: rouge
 timezone: PDT
 permalink: /:year/:month/:title.html
 excerpt_separator: "\n\n\n"
