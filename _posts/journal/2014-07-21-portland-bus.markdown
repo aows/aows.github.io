@@ -3,12 +3,8 @@ layout: post
 title:  "Portland Bus"
 date:   2014-07-21 19:41:48
 categories: journal
+image: img/journal/portland_bus
 ---
-
-{% include two_images.html image1="img/journal/portland_bus1" caption1="" image2="img/journal/portland_bus2" caption2="" %}
-
-  
-  
 
 I did it again. My very first mobile app was [a bus app](http://adrian.otero.ws/2013/05/icoruna-bus.html) for iOS. Now that I switched to Android and I moved to another city, it was about time to make a new one. And [Portland Bus](https://play.google.com/store/apps/details?id=ws.otero.adrian.portlandbus) is the result.
 
