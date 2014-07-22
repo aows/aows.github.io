@@ -1,5 +1,5 @@
 name: adrian.otero.vila
 markdown: redcarpet
 pygments: true
-timezone: EST
+timezone: PDT
 permalink: /:year/:month/:title.html
