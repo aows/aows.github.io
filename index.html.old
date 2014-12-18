@@ -1,0 +1,18 @@
+---
+layout: default
+title: adrian.otero.vila
+---
+
+<div class="row">
+  <div class="col-md-6">
+    <script async src="https://static.medium.com/embed.js"></script><a class="m-profile" href="https://medium.com/@aows">Adrian Otero Vila</a>
+  </div>
+  <div class="col-md-6">
+    <p>Hi there! I'm Adrian, a 32-year-old Android Developer, currently living in beautiful Portland, OR.</p>
+
+    <p>Here you can find some of <a href="/photos.html">my photos</a> or <a href="/usa.html">notes about my adventure here in the States</a> (in Spanish).</p>
+
+    <p>You might also want to take a look at <a href="/resume.html">my resume</a>.</p>
+<!-- this is a test -->
+  </div>
+</div>
