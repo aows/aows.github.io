@@ -1,5 +1,5 @@
 name: adrian.otero.vila
-markdown: redcarpet
+markdown: kramdown 
 highlighter: rouge
 timezone: PDT
 permalink: /:year/:month/:title.html
