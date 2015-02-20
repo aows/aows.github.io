@@ -1,14 +1,7 @@
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
 
 body {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  display: flex;
-
+  width: 100%;
   align-items: center;
   justify-content: center;
 
@@ -16,79 +9,11 @@ body {
   background: #336699;
 }
 
-section.info {
-  font-family: 'Indie Flower', cursive;
-  font-size: 1.2em;
-  background: #fff;
-  box-sizing: border-box;
-  width: 680px;
-  padding: 20px;
-  margin: 20px 30px;
-}
-
-section.img {
-  margin: 20px 0;
-  text-align: right;
-}
-
-section p {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-img {
-  border: 4px solid #336699;
-  border-radius: 50%;
-}
-
 p {
-  text-align: justify;
-  padding-top: 0px;
-  line-height: 150%;
+  text-align: center;
+  margin: 30px auto;
+  width: 400px;
 }
-section.info p {
-  margin-left: 20px;
-}
-section.img img {
-  margin: 0 auto;
-}
-section.img p {
-  margin: 10px auto;
-}
-h1.mahname {
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 2.5em;
-  color: #FFF;
-}
-
-a {
-  color: #2f7cb6;
-  text-decoration: none;
-  -webkit-transition: color  ease-out 0.2s;
-  -moz-transition: color  ease-out 0.2s;
-  -o-transition: color  ease-out 0.2s;
-  transition: color  ease-out 0.2s;
-
-}
-a:hover {
-  color: #000;
-  border-bottom: 1px solid #000;
-}
-
-p a {
-  border-bottom: 1px solid #4388bd;
-}
-
-a.symbol {
-  text-decoration: none;
-  font-size: 40px;
-  color: #aaa;
-}
-
-a.symbol:hover {
-  color: #4388bd;
-}
-
 
 a.fa {
   margin-right: 15px;
@@ -103,7 +28,7 @@ a.fa:focus {
 }
 
 a.fa {
-  color: #336699;
+  color: #fff;
 }
 
 a.fa:hover,
