@@ -5,14 +5,28 @@ body {
   align-items: center;
   justify-content: center;
 
-  color: #444444;
   background: #336699;
+}
+
+ul.card {
+  margin: 20px auto;
+  background: #eee;
+  color: #333;
+  padding: 40px;
+  width: 500px;
+}
+ul.card li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+ul.card a {
+  color: #336699;
 }
 
 p {
   text-align: center;
-  margin: 30px auto;
-  width: 400px;
+  margin: 20px auto;
+  width: 500px;
 }
 
 a.fa {
