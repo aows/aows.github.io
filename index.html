@@ -5,11 +5,42 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>adrian.otero.vila</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
 		<link href="styles.css" media="screen" rel="stylesheet" type="text/css" />
-		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<!-- jQuery and jQuery Mobile -->
+		<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" />
+		<script src="js/jquery-1.9.1.min.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/custom-animations.css">
+		<!-- Navigation -->
+		<link rel="stylesheet" href="css/slicknav-custom.css" />
+		<script src="js/jquery.slicknav.min.js"></script>
+		<!-- Parallax -->
+		<link rel="stylesheet" href="css/parallax.css">
+		<link rel="stylesheet" href="css/parallax_slides.css">
+		<script src="js/modernizr.custom.js"></script>
+		<!-- Auto fill CSS vendor prefixes -->
+		<script src="js/prefixfree.min.js"></script>
+		<!-- Fix Viewport Units -->
+		<script src="js/viewport-units-buggyfill.js"></script>
+		<script>
+			window.viewportUnitsBuggyfill.init();
+		</script>
+		<script>
+			document.documentElement.className += (("ontouchstart" in document.documentElement) ? " touch" : " no-touch");
+		</script>
 	</head>
 	<body>
+		<div id="landing">
+			<div id="main">
+				<h1>Adrian Otero Vila.</h1>
+				<h2><a href="projects" data-transition="pop">Projects</a> | <a href="photo" data-transition="pop">Photography</a> | <a href="film" data-transition="pop">Film</a> | <a class="contact" href="#" data-ajax="false">Contact</a></h2>
+				<h3>Software Engineer, currently working at <a href="http://meridianapps.com">Meridian</a> (<a href="http://www.hpe.com">HPE</a>) as an Android Developer. Passion for code, photography and film.</h3>
+				<span class="social">
+				</span>
+			</div>
+		</div>
+<!--
 		<ul class="card">
 			<li>My name is Adrian and I'm a Software Engineer, currently working at <a href="http://meridianapps.com">Meridian</a> (<a href="http://www.hpe.com">HPE</a>) as an Android Developer.</li>
 			<li>I'm 33, I'm from Spain and I live in Portland, OR.</li>
@@ -28,5 +59,37 @@
 	        ga('create', 'UA-17986983-3', 'otero.ws');
 	        ga('send', 'pageview');
 	    </script>
+		-->
+		<div id="contact_page" style="display:none;">
+	    <h1>Contact.</h1>
+	    <p>Contact me at <a href="mailto:aovila@gmail.com" data-ajax="false">aovila@gmail.com</a>.</p>
+	    <button class="contact_page_close">Close</button>
+		</div>
+		<script src="js/jquery.popupoverlay.js"></script>
+		<script>
+		$(document).ready(function() {
+
+		    $('#contact_page').popup({
+		        color: 'rgba(0,0,0,0.9)',
+		        opacity: 1,
+		        transition: 'all 0.3s',
+		        scrolllock: true,
+		    });
+
+		});
+		</script>
+		<script>
+		$(function() {
+		    $('#menu').slicknav({
+		        label: 'Adrian Otero Vila',
+		        closeOnClick: true
+		    });
+		});
+		</script>
+
+		<script src="js/picturefill.min.js"></script>
+		<script src="js/enquire.min.js"></script>
+		<script src="js/skrollr.js"></script>
+		<script src="js/parallax.js"></script>
 	</body>
 </html>
